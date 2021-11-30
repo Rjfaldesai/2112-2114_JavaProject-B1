@@ -2,13 +2,13 @@
 public class Player {
 	
 	private String playerName;
-	Integer id;
+	int id;
 	boolean status;
-	Integer currentPosition;
+	int currentPosition;
 	public Player() {
 		super();
 		this.status = false;
-		this.currentPosition = 0;
+		this.currentPosition = 1;
 	}
 	
 	public void setName(String name) {
